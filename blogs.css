@@ -1,0 +1,42 @@
+body {
+  background-color: #635959;
+}
+.linkbtn {
+  background-color: #271717;
+  color: #e7d5d5;
+  outline: none;
+}
+
+.linkbtn:hover {
+  background-color: #e7d5d5;
+  color: #271717;
+}
+.cardtitle {
+  color: #635959;
+}
+.card {
+  margin: 50px;
+  font-family: Poppins, sans-serif;
+  display: inline-flex;
+  margin-left: 90px;
+}
+.card-img-top {
+  height: 300px;
+}
+.return {
+  padding-top: 40px;
+  margin-left: 50px;
+  display: block;
+}
+.formore {
+  font-weight: lighter;
+  color: #e7d5d5;
+  font-size: 1.2em;
+  float: right;
+}
+.more {
+  width: 60px;
+  float: right;
+  margin-right: 30px;
+  padding-bottom: 20px;
+}
