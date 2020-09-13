@@ -1,0 +1,121 @@
+body {
+  padding: 0px 90px;
+  background: #635959;
+  color: #271717;
+  text-align: center;
+  font-family: Poppins, sans-serif;
+}
+
+.container {
+  text-align: left;
+  float: right;
+  margin-top: 40px;
+  margin-right: 0px;
+  overflow: hidden;
+  width: 700px;
+}
+
+.slide-in {
+  font-size: 1.7em;
+  padding: 0.5em 1.5em;
+  animation: slideMe 0.7s ease-in;
+}
+
+.slower {
+  font-size: 1.7em;
+  padding: 0.5em 1.5em;
+  animation: slideMe 0.8s ease-in;
+}
+
+.slowerer {
+  font-size: 1.7em;
+  padding: 0.5em 1.5em;
+  animation: slideMe 1s ease-in;
+}
+
+@keyframes slideMe {
+  0% {
+    transform: skewX(60deg) translateX(-700px);
+  }
+  100% {
+    transform: skew(0deg);
+  }
+}
+
+.mainPic {
+  margin-top: 60px;
+  margin-left: 20px;
+  border-radius: 50px;
+  box-shadow: 6px 4px #6b6666;
+}
+.return {
+  float: left;
+  padding-top: 40px;
+}
+
+.header {
+  text-align: center;
+  color: #c1b3b3;
+  padding-top: 60px;
+  font-size: 20px;
+}
+
+.header p {
+  font-weight: lighter;
+}
+
+.container h3 {
+  color: #271717;
+}
+
+.container h1 {
+  color: #c1b3b3;
+  font-weight: bolder;
+}
+
+.container p {
+  font-size: 20px;
+}
+table {
+  margin-left: 26px;
+}
+table td {
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+  color: #c1b3b3;
+  font-weight: bolder;
+}
+table span {
+  font-weight: lighter;
+}
+button {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 200px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 30px;
+  border: none;
+  color: #c1b3b3;
+  background-color: #271717;
+  outline: none;
+}
+
+button:hover {
+  color: #271717;
+  background-color: #c1b3b3;
+  cursor: pointer;
+}
+
+.contact li {
+  list-style: none;
+  display: inline;
+}
+
+.contact {
+  margin-left: 290px;
+  margin-top: -29.5px;
+}
