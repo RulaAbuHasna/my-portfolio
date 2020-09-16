@@ -21,7 +21,9 @@ li {
   font-size: 18px;
   text-decoration: none;
 }
-
+#nav-list {
+  float: right;
+}
 .nav a {
   color: #e6e6e6;
   text-decoration: none;
@@ -74,6 +76,10 @@ h3 span:hover {
   padding-right: 20px;
 }
 
+.contact li {
+  padding-top: 5px;
+}
+
 #cat {
   padding-top: 10px;
   float: right;
@@ -87,19 +93,128 @@ li {
 /* #main {
   width: 300px;
 } */
+@media only screen and (max-width: 800px) and (min-width: 600px) {
+  #welcoming {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 0px;
+    font-size: 16px;
+    float: left;
+  }
+  h3 span {
+    font-size: 30px;
+    text-align: left;
+    margin-right: 20px;
+  }
 
-@media screen and (max-width: 1060px) {
-  /* style ONLY for screens with 360px or less width */
-  #main {
-    width: 67%;
-    padding-top: 20px;
+  .contact {
+    float: right;
+    padding: 0px;
+    margin-right: -30px;
+    margin-top: 300px;
+  }
+  body {
+    width: 432px;
+    text-align: center;
+    margin-left: 80px;
+  }
+  #nav-list {
+    float: left;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+  .center {
+    width: 300px;
   }
 }
-
-@media screen and (max-width: 780px) {
+@media only screen and (max-width: 600px) and (min-width: 500px) {
+  #welcoming {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 0px;
+    font-size: 16px;
+    float: left;
+  }
+  h3 span {
+    font-size: 30px;
+    text-align: left;
+    margin-right: 20px;
+  }
+  .contact {
+    float: right;
+    padding: 0px;
+    margin-right: -30px;
+    margin-top: 200px;
+  }
+  body {
+    width: 432px;
+    text-align: center;
+    margin-left: 50px;
+  }
+  #nav-list {
+    float: left;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+  .center {
+    width: 200px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .nav {
+    padding: 0px;
+  }
+  #home {
+    margin: 0px;
+  }
+  #nav-list {
+    float: left;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  #cat {
+    width: 29px;
+    float: none;
+    padding-left: -40px;
+  }
+  .nav a {
+    margin-right: 0px;
+    padding: -10px;
+  }
+  #welcoming {
+    width: 100%;
+    margin-left: 10px;
+    font-size: 16px;
+    float: left;
+  }
+  .contact {
+    float: right;
+    padding: 0px;
+    width: 100px;
+    margin-right: -100px;
+    margin-top: 240px;
+  }
+  .center {
+    width: 200px;
+    margin: 0 auto;
+    margin-left: 100px;
+  }
+  body {
+    width: 350px;
+  }
+  h3 span {
+    font-size: 30px;
+    text-align: left;
+    margin-right: 20px;
+  }
+}
+/* @media screen and (max-width: 780px) {
   /* style ONLY for screens with 360px or less width */
-  #main {
+/* #main {
     width: 100%;
     padding-top: 20px;
   }
-}
+} */

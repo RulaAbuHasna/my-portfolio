@@ -40,3 +40,13 @@ body {
   margin-right: 30px;
   padding-bottom: 20px;
 }
+h3 {
+  margin-top: 30px;
+}
+@media screen and (max-width: 1060px) {
+  /* style ONLY for screens with 360px or less width */
+  #main {
+    width: 50%;
+    padding-top: 20px;
+  }
+}
