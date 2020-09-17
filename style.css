@@ -189,18 +189,20 @@ li {
     margin-left: 10px;
     font-size: 16px;
     float: left;
+    margin-bottom: 10px;
   }
   .contact {
     float: right;
     padding: 0px;
-    width: 100px;
-    margin-right: -100px;
-    margin-top: 240px;
+    width: 10px;
+    margin-right: -50px;
+    padding-right: 40px;
+    margin-top: 200px;
   }
   .center {
     width: 200px;
     margin: 0 auto;
-    margin-left: 100px;
+    margin-left: 70px;
   }
   body {
     width: 350px;
