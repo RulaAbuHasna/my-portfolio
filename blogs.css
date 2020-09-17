@@ -49,4 +49,11 @@ h3 {
     width: 50%;
     padding-top: 20px;
   }
+  .return {
+    margin-top: -10px;
+    margin-left: 30px;
+  }
+  .card {
+    margin-left: 10px;
+  }
 }
